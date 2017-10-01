@@ -1,0 +1,580 @@
+﻿<project version="2.8" name="China Daily" ID="1FED47AB-A323-4CFE-A6E8-ACBBE9A6933B">
+  <params>
+    <pageParam version="4.8" minAllowVersion="4.8"/>
+    <projectParam version="2.8" minAllowVersion="2.8" platform="MtMobile" orientation="MoPortrait" mobileScreenScale="1.77777779102325" mobileType="mmtIOS" pageSize="(375,667)" backgroundColor="4294967295" fontSize="0" fontFamily="Arial" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="Page" ID="6E8479E3-47C7-4C67-BAF9-EA3CC3172D28" expanded="True" code="VF19eFl6WO" thumbCode="VF19eFl6WO" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Home" ID="0712C46A-0077-48C1-A5EA-8065255AB37B" expanded="True" code="cNKlm6llo1" thumbCode="cNKlm6llo1" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="AAB88A0DBC36349D200FD736A1ECD7AB.png"/>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="EF82937731E8D26526E1CFE1B07B5A09.png"/>
+        <image key="84668AE8112260920EC192A0930B703F.png"/>
+        <image key="896BD5B8BDCE9D41ADCA79D5BEDF2E5F.png"/>
+        <image key="0EA8F9857C692151373C5F46BCF3E5FF.png"/>
+        <image key="7CF81BF366C2930FC899AF39EFB1097E.png"/>
+        <image key="A81A788663C001DF71C2646CDA10ECCC.png"/>
+        <image key="CC4054E247C94EC790168DEF55E8F6D2.png"/>
+        <image key="ACEBF47ED970EF27AEAADD24CAEAC1FB.png"/>
+        <image key="906BD61682865298A4C24BA25353938D.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="CC232787EA402CB25EC3223DC39AC4ED.png"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="17DC0E3510E0E42F9E4CE0042E5F3E27.png"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="93CC6A3FF7F3E0F9896376E0573BEBC3.png"/>
+        <image key="C49777E5B5B0BFE118769ABD8C691CA7.png"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+        <image key="69B9950DC8F04150CB0EA2D6D3C683D6.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+      </images>
+      <page name="Leaders" ID="A642DB00-96F8-48AC-87F3-60DB18A44D5D" expanded="False" code="n52GZFYhiy" thumbCode="6qbRnVmqux" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="B8C77B0508B43C1DDF8A1CB2885C729D.png"/>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="Add" ID="6DA64C3C-B998-4910-A65C-CE0E522ED23C" expanded="False" code="Gx38Mn9dpX" thumbCode="Gx38Mn9dpX" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="D461B89CFC537DBAD724FAD78224FD94.svg"/>
+      </images>
+    </page>
+    <page name="Editor's Pick" ID="0E90FB76-8F5B-48D5-B38A-0051A0C459C5" expanded="False" code="EORLA6fkSP" thumbCode="EORLA6fkSP" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1D917E737E856B86C3FA03DA8A472B2.png"/>
+        <image key="5BC2640F6D11B3BDCD5F776DD55E7DF6.png"/>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="FD1FA36E7C3729D9BA5E7F9C14F5EF14.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="3B194CFDB238C7BC69791C8D0659DB12.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+        <image key="236DADDC66ADA4AB52AD58C74391106B.png"/>
+      </images>
+      <page name="24 Solar Terms" ID="BCDDA460-1952-4E88-81AF-50378870DE84" expanded="True" code="OZze7mEG14" thumbCode="OZze7mEG14" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="D8124FB72C497293A8E21383D55A75E2.png"/>
+          <image key="B476F1034AD86525A5F91FD1224D66D9.png"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="China" ID="6D8F6A9C-AA55-4B7C-860E-BB9F39677DFD" expanded="False" code="i546XTqGqp" thumbCode="i546XTqGqp" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="B6D6058DC11227E643C738F147642BE0.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="C423C8296426A037A2F4A2BDB0664AF6.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+      </images>
+      <page name="Collapse Kills More Than 70 Workers" ID="FFAD1D3F-65D5-47BD-829D-4189E8A85BDD" expanded="True" code="gsyAmPgeFq" thumbCode="gsyAmPgeFq" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="452331BAEBE0181576476117FF32F8FF.png"/>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="World" ID="15A21582-BEB7-4457-AF56-8E19AFAEEE01" expanded="False" code="n2sC13d95k" thumbCode="n2sC13d95k" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="F96662BFF199F2572FFD67D51A7D8814.png"/>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="CC4054E247C94EC790168DEF55E8F6D2.png"/>
+        <image key="07C7A440C05931C479FC5C4E8E101D89.png"/>
+        <image key="7CF81BF366C2930FC899AF39EFB1097E.png"/>
+        <image key="869517F09155BC1C811D7E9B5B563F12.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+      </images>
+      <page name="Thanksgiving Day" ID="E230BF7A-4DD5-4025-B54C-DC0550270BC0" expanded="True" code="hWveAOcRZK" thumbCode="hWveAOcRZK" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="4B64BEFD8053269ACC37519FC27BE5C9.png"/>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="9170667E9BC90796697E9EAB70B4EF24.png"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="Business" ID="FFE0A7D0-FECE-4598-A3BA-3A82DD8C5669" expanded="False" code="xA7Am21Asw" thumbCode="xA7Am21Asw" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="41B553561C4D1DEBF7A4E3B1D6397B1B.png"/>
+        <image key="7D28CA00C99B20302ED8D5A977C812CE.png"/>
+        <image key="627056B6F9563109D047B6CFE30F83CD.png"/>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="CC232787EA402CB25EC3223DC39AC4ED.png"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+        <image key="1C09DE86676225EF712358DEF5D4568B.png"/>
+      </images>
+      <page name="Moves On Yuan Point To Reform" ID="7C6FBE86-68E9-45BA-8797-D174B2C0DF48" expanded="True" code="aUrNYbH6qQ" thumbCode="aUrNYbH6qQ" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="33E7F89169D2530F4D06B170955FE729.png"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="Sports" ID="AE01FF9A-B178-4A89-96CC-6DF769A7DCE5" expanded="False" code="3xaRoqw2tI" thumbCode="3xaRoqw2tI" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="3D44C80CE90D6E9B74E57875C18E3574.png"/>
+        <image key="61FDC56285B9CB8DE9723E8EF6ECE298.png"/>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="84668AE8112260920EC192A0930B703F.png"/>
+        <image key="23BB44D84643FADE518754E3CB69C8AE.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+        <image key="27D2A198EEC8210CC6D98D1CBDD642F1.png"/>
+      </images>
+      <page name="Gerrard Retires" ID="B9511655-9A71-43ED-B371-979A1BE20146" expanded="True" code="dNlVZZJYVg" thumbCode="dNlVZZJYVg" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="1572E300975F3189E30A5E58AD8D8E23.png"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="Lifestyle" ID="ECEDD379-118E-4477-BAFC-77EE4C183081" expanded="False" code="13zZO2dJwo" thumbCode="13zZO2dJwo" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="1E448ED098EA297EE5D79BA040CF4A36.png"/>
+        <image key="94956A0D017A7F120DB1B8215926F2AB.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="865BB53C1E2A7A6BD7430881191D81E9.png"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+        <image key="77B4DEAA47EE6D2B93EBF2222F8E43B9.png"/>
+      </images>
+      <page name="The Long March" ID="DB650B3A-B023-4B23-9D97-EEFAEA8F65A1" expanded="True" code="OUM6aefULf" thumbCode="OUM6aefULf" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="400C40011386C279BB71115E12983672.png"/>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="83B397DC5B618AE31BFF1F76DAFA6E88.png"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="Tech" ID="09021E9B-452B-4929-845F-FDE79AA3B79C" expanded="False" code="8wDiwvPXJz" thumbCode="8wDiwvPXJz" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="7CAFF7AE68F3AA4B4AE5504F9B57DA32.png"/>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="06EA35194AD0E98CBFBD3211CC4736C5.png"/>
+        <image key="FD443DDB580E545FDD1BAE632C474320.png"/>
+        <image key="920B64DE9CE99582E0006AB55737A58F.png"/>
+        <image key="AD25E72FDAA04498576E3D608608104B.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="78139ACF461B74DE82501420DFED061C.png"/>
+        <image key="772F95DF81A7F4660D1360FB5DAF8745.png"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="E306A887F554C1DF37D9F3F014AE6AA4.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+      </images>
+      <page name="iPhone 'Live Photo' May Leak Location" ID="512343C7-B5FB-430D-81E0-F3DBC5DAFAC5" expanded="True" code="WrOPaSwQfb" thumbCode="WrOPaSwQfb" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="7494D60A28242A3E76115A174DE096BF.png"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="Opinion" ID="039A8C10-B2EC-4AF3-9CBB-C2B015B1D50B" expanded="True" code="jnPOcIefAu" thumbCode="jnPOcIefAu" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="F1BD138A7150179CF83756987FBC11B0.png"/>
+        <image key="6E6A21886C48F5D933D3F4E31693BA18.png"/>
+        <image key="5B30714D227F7471A259FF432B3522E5.png"/>
+        <image key="C8429A5DAE4D7BC339774FF910CE334D.png"/>
+        <image key="906BD61682865298A4C24BA25353938D.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="8512E6FA6874ECC53B920E89A4DB93DE.png"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="3269CAD98A6F537E216BEB813BBC82B2.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+      </images>
+      <page name="New DPRK" ID="A8B82F75-9AB8-4D1E-A7BF-B1178835B03E" expanded="False" code="cWFsVb2dyy" thumbCode="cWFsVb2dyy" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="C5E005ADE948F876E8724F89FC4454E7.png"/>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="Special" ID="92D1F52A-D0A8-4037-822C-52FC3639CA73" expanded="False" code="W4C9dPFuxE" thumbCode="W4C9dPFuxE" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="D6247D55DA36D09EBF376AD464EE39B1.png"/>
+        <image key="0BCA1A6363D20DC67419D620627067A6.png"/>
+        <image key="E72C4D6CC613A6B15281F55EBC15E20B.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="9E716CF4F915F5F1CA49B0FE75FECE31.png"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+      </images>
+      <page name="President Xi Visits Latin America" ID="EE232EFB-C3FE-4BB7-9E54-56E54C7295A9" expanded="True" code="fxQ5JEbr34" thumbCode="fxQ5JEbr34" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="305F1C7016863104EF894D7417C0F270.png"/>
+          <image key="9E716CF4F915F5F1CA49B0FE75FECE31.png"/>
+          <image key="0B26979627B0FEA6B8CA7FE44D16DF1E.png"/>
+          <image key="5E44F4744677EC655605EA9BF4C684AD.png"/>
+          <image key="69801841AB2352E6E45809F295073CB0.png"/>
+        </images>
+      </page>
+    </page>
+    <page name="Photo" ID="D6623459-E2B0-48B1-9BB2-0373E3A6E282" expanded="False" code="UOJ8ScGpu8" thumbCode="UOJ8ScGpu8" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="A6799E262A5809EB4ED91A22531A50A2.png"/>
+        <image key="EA35085EAE863C209A6ACF3B6AF2EC94.png"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+        <image key="16A082DAE8E3A22AD5BEEE28CDFD668D.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+      </images>
+      <page name="Photo-1" ID="BF292475-9A9B-4A37-AAB4-BF1BB81041A2" expanded="True" code="FnjaCOJIYj" thumbCode="FnjaCOJIYj" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="66553EB9842E28D1BD11AF16861FF676.png"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+      <page name="Photo-2" ID="A80813F7-2E09-43F3-8D79-F6AC8E383D77" expanded="True" code="12VWh4rf5N" thumbCode="12VWh4rf5N" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+          <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+          <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+          <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+          <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+          <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+          <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+          <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+          <image key="6CC68DF6CB8D3035E3101710E43E31C6.png"/>
+          <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+          <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+          <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+          <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+          <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+        </images>
+      </page>
+    </page>
+    <page name="Video" ID="9253E841-EB86-48E9-8E93-74A5A69B80B9" expanded="True" code="oMcbdSqGDz" thumbCode="oMcbdSqGDz" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="F3C90F709AA7ABBA60B58FD4C52F206C.png"/>
+        <image key="07295E0648E51AA7041DFA7DB200FA1C.png"/>
+        <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+        <image key="70B0EEFFC65D33973BE4BCA29217FF34.png"/>
+        <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+        <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+        <image key="72831646513A2AE2F7143B35994918B6.png"/>
+        <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+        <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+        <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+        <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+      </images>
+    </page>
+    <page name="Download" ID="F138C131-F1A5-4F8D-8C93-1ECA3A327C11" expanded="True" code="EE5cqmRDka" thumbCode="EE5cqmRDka" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Saved" ID="D2744A3E-8162-4688-B100-B9656E14373E" expanded="True" code="L7OsXxzejN" thumbCode="L7OsXxzejN" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+        <image key="5BC2640F6D11B3BDCD5F776DD55E7DF6.png"/>
+      </images>
+    </page>
+    <page name="More Apps" ID="5C8A3DCE-A355-4FB7-8EAA-B9B67F5E0076" expanded="True" code="6aS7twbkf6" thumbCode="6aS7twbkf6" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+        <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+        <image key="9A2A1E42EBD8D1EE6B6E8F075CD207E5.svg"/>
+      </images>
+    </page>
+    <page name="Settings" ID="3E03E971-72B8-4EF4-BA17-34FA5B1BE6F0" expanded="True" code="8eQnd1WgJN" thumbCode="8eQnd1WgJN" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+        <image key="2E967326C22523F5F084001B9F4E5BC7.svg"/>
+      </images>
+    </page>
+  </pages>
+  <trash/>
+  <deletes/>
+  <masters/>
+  <images>
+    <image key="7CAFF7AE68F3AA4B4AE5504F9B57DA32.png"/>
+    <image key="C5E005ADE948F876E8724F89FC4454E7.png"/>
+    <image key="E1D917E737E856B86C3FA03DA8A472B2.png"/>
+    <image key="5BC2640F6D11B3BDCD5F776DD55E7DF6.png"/>
+    <image key="E79D1BE7DE99AFF7D706A7AA469261F6.svg"/>
+    <image key="0EA8F9857C692151373C5F46BCF3E5FF.png"/>
+    <image key="AD25E72FDAA04498576E3D608608104B.png"/>
+    <image key="33E7F89169D2530F4D06B170955FE729.png"/>
+    <image key="878770FF750CFE0FDFC983B78E4DABF1.svg"/>
+    <image key="78139ACF461B74DE82501420DFED061C.png"/>
+    <image key="83B397DC5B618AE31BFF1F76DAFA6E88.png"/>
+    <image key="69801841AB2352E6E45809F295073CB0.png"/>
+    <image key="5E44F4744677EC655605EA9BF4C684AD.png"/>
+    <image key="17DC0E3510E0E42F9E4CE0042E5F3E27.png"/>
+    <image key="3B194CFDB238C7BC69791C8D0659DB12.png"/>
+    <image key="0EAA797C446C873DABE285A445DC764F.svg"/>
+    <image key="1C09DE86676225EF712358DEF5D4568B.png"/>
+    <image key="EF82937731E8D26526E1CFE1B07B5A09.png"/>
+    <image key="66553EB9842E28D1BD11AF16861FF676.png"/>
+    <image key="EFB32CAA0525DDB084D7E5342E74C33D.svg"/>
+    <image key="72831646513A2AE2F7143B35994918B6.png"/>
+    <image key="1572E300975F3189E30A5E58AD8D8E23.png"/>
+    <image key="9170667E9BC90796697E9EAB70B4EF24.png"/>
+    <image key="41B553561C4D1DEBF7A4E3B1D6397B1B.png"/>
+    <image key="77B4DEAA47EE6D2B93EBF2222F8E43B9.png"/>
+    <image key="CC4054E247C94EC790168DEF55E8F6D2.png"/>
+    <image key="6E6A21886C48F5D933D3F4E31693BA18.png"/>
+    <image key="1E448ED098EA297EE5D79BA040CF4A36.png"/>
+    <image key="BA2EAB857711598DA1CFBDC2B8848DF5.svg"/>
+    <image key="ACEBF47ED970EF27AEAADD24CAEAC1FB.png"/>
+    <image key="869517F09155BC1C811D7E9B5B563F12.png"/>
+    <image key="CC232787EA402CB25EC3223DC39AC4ED.png"/>
+    <image key="C3517FFA16AA87A456CF75DD7899CD12.svg"/>
+    <image key="C423C8296426A037A2F4A2BDB0664AF6.png"/>
+    <image key="8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg"/>
+    <image key="2E967326C22523F5F084001B9F4E5BC7.svg"/>
+    <image key="3269CAD98A6F537E216BEB813BBC82B2.png"/>
+    <image key="EA35085EAE863C209A6ACF3B6AF2EC94.png"/>
+    <image key="2C73D3FCA34541450470A8A80B0D356C.svg"/>
+    <image key="AAB88A0DBC36349D200FD736A1ECD7AB.png"/>
+    <image key="F96662BFF199F2572FFD67D51A7D8814.png"/>
+    <image key="627056B6F9563109D047B6CFE30F83CD.png"/>
+    <image key="D8124FB72C497293A8E21383D55A75E2.png"/>
+    <image key="27D2A198EEC8210CC6D98D1CBDD642F1.png"/>
+    <image key="06EA35194AD0E98CBFBD3211CC4736C5.png"/>
+    <image key="5B30714D227F7471A259FF432B3522E5.png"/>
+    <image key="6E397F998770B38A343BB5B849DF19E9.svg"/>
+    <image key="0BCA1A6363D20DC67419D620627067A6.png"/>
+    <image key="07295E0648E51AA7041DFA7DB200FA1C.png"/>
+    <image key="1DF174D9AE752B1FC4C71308CE69EBA5.svg"/>
+    <image key="16A082DAE8E3A22AD5BEEE28CDFD668D.png"/>
+    <image key="9944463D1E4DC1D1C6281876E313235F.svg"/>
+    <image key="A81A788663C001DF71C2646CDA10ECCC.png"/>
+    <image key="07C7A440C05931C479FC5C4E8E101D89.png"/>
+    <image key="D6247D55DA36D09EBF376AD464EE39B1.png"/>
+    <image key="305F1C7016863104EF894D7417C0F270.png"/>
+    <image key="F3C90F709AA7ABBA60B58FD4C52F206C.png"/>
+    <image key="7494D60A28242A3E76115A174DE096BF.png"/>
+    <image key="D461B89CFC537DBAD724FAD78224FD94.svg"/>
+    <image key="772F95DF81A7F4660D1360FB5DAF8745.png"/>
+    <image key="9C7ADC66F44EE0B51F76005861E4E569.svg"/>
+    <image key="6BA4F209C7686A63DAEE2CC7605550E2.svg"/>
+    <image key="48FDC4C0E36C8E434F0A5C791CEE9B9B.svg"/>
+    <image key="6CC68DF6CB8D3035E3101710E43E31C6.png"/>
+    <image key="889E208791BEEA5925F0E9D3A28E4DF6.svg"/>
+    <image key="69B9950DC8F04150CB0EA2D6D3C683D6.png"/>
+    <image key="400C40011386C279BB71115E12983672.png"/>
+    <image key="61FDC56285B9CB8DE9723E8EF6ECE298.png"/>
+    <image key="F1BD138A7150179CF83756987FBC11B0.png"/>
+    <image key="84668AE8112260920EC192A0930B703F.png"/>
+    <image key="452331BAEBE0181576476117FF32F8FF.png"/>
+    <image key="4B64BEFD8053269ACC37519FC27BE5C9.png"/>
+    <image key="920B64DE9CE99582E0006AB55737A58F.png"/>
+    <image key="906BD61682865298A4C24BA25353938D.png"/>
+    <image key="E72C4D6CC613A6B15281F55EBC15E20B.png"/>
+    <image key="21320CC5EA276FD4D9D992FF6DB75390.svg"/>
+    <image key="0B26979627B0FEA6B8CA7FE44D16DF1E.png"/>
+    <image key="70B0EEFFC65D33973BE4BCA29217FF34.png"/>
+    <image key="E306A887F554C1DF37D9F3F014AE6AA4.png"/>
+    <image key="9A2A1E42EBD8D1EE6B6E8F075CD207E5.svg"/>
+    <image key="F7E02778BAF3FF559BFAE415D3E70126.svg"/>
+    <image key="2273EE38561E50A58D1F65796DD55138.svg"/>
+    <image key="236DADDC66ADA4AB52AD58C74391106B.png"/>
+    <image key="B8C77B0508B43C1DDF8A1CB2885C729D.png"/>
+    <image key="3D44C80CE90D6E9B74E57875C18E3574.png"/>
+    <image key="7CF81BF366C2930FC899AF39EFB1097E.png"/>
+    <image key="B476F1034AD86525A5F91FD1224D66D9.png"/>
+    <image key="C8429A5DAE4D7BC339774FF910CE334D.png"/>
+    <image key="865BB53C1E2A7A6BD7430881191D81E9.png"/>
+    <image key="29F37D064345EFF092FDE43A909201C4.svg"/>
+    <image key="92F9F955CF788281C0EEF7861CFF0975.svg"/>
+    <image key="C49777E5B5B0BFE118769ABD8C691CA7.png"/>
+    <image key="7D28CA00C99B20302ED8D5A977C812CE.png"/>
+    <image key="896BD5B8BDCE9D41ADCA79D5BEDF2E5F.png"/>
+    <image key="FD1FA36E7C3729D9BA5E7F9C14F5EF14.png"/>
+    <image key="FD443DDB580E545FDD1BAE632C474320.png"/>
+    <image key="94956A0D017A7F120DB1B8215926F2AB.png"/>
+    <image key="B6D6058DC11227E643C738F147642BE0.png"/>
+    <image key="23BB44D84643FADE518754E3CB69C8AE.png"/>
+    <image key="8512E6FA6874ECC53B920E89A4DB93DE.png"/>
+    <image key="9E716CF4F915F5F1CA49B0FE75FECE31.png"/>
+    <image key="BEC05033BFE991440DD86CE9E431A6E7.svg"/>
+    <image key="A6799E262A5809EB4ED91A22531A50A2.png"/>
+    <image key="36DBDFC197869220AC448A266D2D1BB2.png"/>
+    <image key="93CC6A3FF7F3E0F9896376E0573BEBC3.png"/>
+  </images>
+</project>

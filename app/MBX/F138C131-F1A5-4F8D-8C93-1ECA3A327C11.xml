@@ -1,0 +1,49 @@
+<mockup version="4.8" platform="MtMobile" defaultW="375" defaultH="667" from="FmLocal" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" minAllowVersion="4.8" ID="F138C131-F1A5-4F8D-8C93-1ECA3A327C11" measureW="375" measureH="667">
+  <controls controlCount="4">
+    <control controlID="99C262A4-D3EF-415C-8E78-D5EB6311E626" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="0">
+      <color>0</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="5CA9A382-CC8F-4A00-B6AD-72F3D82D59D0" controlTypeID="CircleProgressBar" x="113" y="216" w="150" h="150" zOrder="1">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>CircleProgressBar</text>
+      <textSize>34</textSize>
+      <lineSpacing>39</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <value>1</value>
+      <thickness>16</thickness>
+      <indicatorColor>4288264933</indicatorColor>
+    </control>
+    <control controlID="77606DDC-9199-4D1D-AC94-6039D5FD6AD0" controlTypeID="Label" x="130" y="385" w="122" h="23" zOrder="2">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Downloading</text>
+      <textSize>20</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>23</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="779B73EA-A098-48EE-9FA0-5C0FACE18E23" controlTypeID="Shape" x="0" y="614" w="375" h="53" zOrder="3">
+      <borderColor>4292335575</borderColor>
+      <links eventType="AtClick" animate="AmSlideUp" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="command:back" linkType="ltPageLink" isApplyIncludePage="False" title="">
+          <area shape="0" alt="" ID="{879B32A6-EAF2-465B-A952-50CB80C29C7D}" coords="(0,0,375,53)"/>
+        </link>
+      </links>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Cancel</text>
+      <textColor>4278471797</textColor>
+      <textSize>20</textSize>
+      <lineSpacing>23</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmTop]</borderMode>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

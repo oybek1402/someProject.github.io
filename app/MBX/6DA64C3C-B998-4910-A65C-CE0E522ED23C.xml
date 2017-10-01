@@ -1,0 +1,119 @@
+﻿<mockup version="4.8" platform="MtMobile" defaultW="375" defaultH="667" from="FmLocal" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" minAllowVersion="4.8" ID="6DA64C3C-B998-4910-A65C-CE0E522ED23C" measureW="375" measureH="667">
+  <controls controlCount="11">
+    <control controlID="5D972CE7-0570-46C7-8E8C-5D6B21DCE245" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="0">
+      <color>0</color>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <IsAutoTextColor>False</IsAutoTextColor>
+    </control>
+    <control controlID="10E27D73-B90F-4EDA-9787-4012E13D0EC5" controlTypeID="Icon" x="20" y="30" w="21" h="21" zOrder="1">
+      <color>4294967295</color>
+      <links eventType="AtClick" animate="AmPushRight" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="command:back" linkType="ltPageLink" isApplyIncludePage="False" title="">
+          <area shape="0" alt="" ID="{E0C86258-EF02-46AC-B3A4-1F4A7F2AC979}" coords="(0,0,21,21)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62468</iconCode>
+      </icon>
+      <URL>D461B89CFC537DBAD724FAD78224FD94.svg</URL>
+    </control>
+    <control controlID="39602E7E-1A8B-4FC9-9E49-AAF450C16D65" controlTypeID="Line" x="-1" y="64" w="375" h="2" zOrder="2">
+      <color>654311423</color>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <lineSpacing>16</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(188,1)</controlPoint>
+      <startPoint>(0,1)</startPoint>
+      <endPoint>(375,1)</endPoint>
+    </control>
+    <control controlID="C8052FB0-5CCF-4F6A-84B4-2513B078173C" controlTypeID="Shape" x="10" y="95" w="98" h="32" zOrder="3">
+      <color>16777215</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <text>EDITOR'S+PICK</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>14</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="36B3EED5-431E-4FB4-B4F5-D7FBE68D6EE0" controlTypeID="Shape" x="10" y="141" w="98" h="32" zOrder="4">
+      <color>16777215</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <text>BUSINESS</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>14</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E84ED7F5-E69A-4DB9-B4A9-52C80C26F3C9" controlTypeID="Shape" x="10" y="185" w="98" h="32" zOrder="5">
+      <color>16777215</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <text>OPINION</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>14</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="98349C30-5B08-4796-8CBE-DDBB2157FA8B" controlTypeID="Shape" x="112" y="95" w="98" h="32" zOrder="6">
+      <color>16777215</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <text>CHINA</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>14</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="051787E1-D4E2-43C3-B05B-D8394000B85C" controlTypeID="Shape" x="112" y="141" w="98" h="32" zOrder="7">
+      <color>16777215</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <text>SPORTS</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>14</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="19BD5CA7-9799-4AA2-A31A-515E6FBB0757" controlTypeID="Shape" x="112" y="185" w="98" h="32" zOrder="8">
+      <color>16777215</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <text>TECH</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>14</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="44E44855-F9A7-4C84-8CD1-B67FA781B391" controlTypeID="Shape" x="214" y="95" w="98" h="32" zOrder="9">
+      <color>16777215</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <text>WORLD</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>14</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="35CD5716-B7C6-4497-B8D5-9BC10D18BE9D" controlTypeID="Shape" x="214" y="141" w="98" h="32" zOrder="10">
+      <color>16777215</color>
+      <borderColor>4294967295</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B9" weight="400" isBold="False" isItalic="False"/>
+      <text>LIFESTYLE</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>14</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4280242859</backgroundColor>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+    <fontSize>14</fontSize>
+  </param>
+</mockup>

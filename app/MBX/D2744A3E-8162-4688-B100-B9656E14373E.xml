@@ -1,0 +1,70 @@
+<mockup version="4.8" platform="MtMobile" defaultW="375" defaultH="667" from="FmLocal" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" minAllowVersion="4.8" ID="D2744A3E-8162-4688-B100-B9656E14373E" measureW="375" measureH="667" clipArea="(0,0,0,0)">
+  <controls controlCount="7">
+    <control controlID="4136AB72-75CF-4784-A9FC-582410F58C65" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="0">
+      <color>4294967295</color>
+    </control>
+    <control controlID="A0668B24-C3B7-4F11-A273-592354032BF2" controlTypeID="Shape" x="0" y="20" w="375" h="44" zOrder="1">
+      <borderColor>4292335575</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>SAVED</text>
+      <textColor>4278471797</textColor>
+      <textSize>20</textSize>
+      <lineSpacing>23</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmBottom]</borderMode>
+    </control>
+    <control controlID="008CF58C-3051-4144-B03E-CE3E50DD100C" controlTypeID="Icon" x="15" y="31" w="24" h="24" zOrder="2">
+      <color>4280111771</color>
+      <links eventType="AtClick" animate="AmSlideUp" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="command:back" linkType="ltPageLink" isApplyIncludePage="False" title="">
+          <area shape="0" alt="" ID="{16142C45-4719-444E-880E-473385E009DB}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62421</iconCode>
+      </icon>
+      <URL>C3517FFA16AA87A456CF75DD7899CD12.svg</URL>
+    </control>
+    <control controlID="A6B6ADC5-2A02-4963-A9EC-FC1E4EC2E0F8" controlTypeID="TextArea" x="10" y="76" w="240" h="45" zOrder="3">
+      <borderColor>4282664004</borderColor>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>24+Solar+Terms%3A+7+things+you+may+not+know+about+Minor+Snow</text>
+      <textSize>16</textSize>
+      <lineSpacing>18</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E08053BB-13EB-4C6A-B4C0-CFED96D56333" controlTypeID="Image" x="279" y="74" w="87" h="64" zOrder="4">
+      <URL>5BC2640F6D11B3BDCD5F776DD55E7DF6.png</URL>
+      <showText>False</showText>
+    </control>
+    <control controlID="6C48E6D5-B95E-4A48-8F2F-0DF638BC0CDF" controlTypeID="Label" x="13" y="124" w="92" h="12" zOrder="5">
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>November+22%2C+2016</text>
+      <textColor>4288256409</textColor>
+      <textSize>10</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>11</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="392AC5A8-0444-48DB-86BD-8BE4D34E1354" controlTypeID="Line" x="10" y="148" w="354" h="1" zOrder="6">
+      <color>4293190884</color>
+      <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <lineSpacing>16</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(178,0)</controlPoint>
+      <startPoint>(1,0)</startPoint>
+      <endPoint>(354,0)</endPoint>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

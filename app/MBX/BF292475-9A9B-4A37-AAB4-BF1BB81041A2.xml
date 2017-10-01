@@ -1,0 +1,893 @@
+<mockup version="4.8" platform="MtMobile" defaultW="375" defaultH="667" from="FmLocal" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" minAllowVersion="4.8" ID="BF292475-9A9B-4A37-AAB4-BF1BB81041A2" measureW="375" measureH="667">
+  <controls controlCount="67">
+    <control controlID="956779A5-2097-48DA-B77F-565C506AB940" controlTypeID="StatusBar(IOS)" x="0" y="0" w="375" h="20" zOrder="0"/>
+    <control controlID="56BA96A1-FAB6-4B10-8803-D7233AFA5FF5" controlTypeID="Icon" x="10" y="30" w="24" h="24" zOrder="1">
+      <color>4294967295</color>
+      <links eventType="AtClick" animate="AmPushRight" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="D6623459-E2B0-48B1-9BB2-0373E3A6E282" linkType="ltPageLink" isApplyIncludePage="False" title="Photo">
+          <area shape="0" alt="" ID="{8B88997C-A532-4158-8492-995CAFCC7B24}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62421</iconCode>
+      </icon>
+      <URL>C3517FFA16AA87A456CF75DD7899CD12.svg</URL>
+    </control>
+    <control controlID="166AD0B8-E26F-4375-853E-E98041DEE2CD" controlTypeID="IconLabel2" x="255" y="31" w="39" h="24" zOrder="2">
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{C0CE7C0C-DEA9-4E95-8909-BC2B04F3F9AF}" coords="(0,0,39,24)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="00931216-41DC-45C5-BE29-17CFDEA29CE7" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="0" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+                <target targetID="166AD0B8-E26F-4375-853E-E98041DEE2CD" IsNeedReplaceAsSelfID="True" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="1" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <groupChildrenDescriptors>
+        <control controlID="FAE7A9A5-578E-45B4-855A-D98B668B4582" controlTypeID="Shape" x="15" y="0" w="24" h="24" zOrder="0">
+          <canMove>False</canMove>
+          <alias>shape</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <lineSpacing>16</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="34F3AA0D-2F00-4BE9-A53A-8D9ED304013F" controlTypeID="Icon" x="15" y="0" w="24" h="24" zOrder="1">
+          <color>4294967295</color>
+          <canMove>False</canMove>
+          <alias>icon</alias>
+          <icon>
+            <ID/>
+            <iconFontName>jdFontAwesome</iconFontName>
+            <iconCode>61575</iconCode>
+          </icon>
+          <URL>BA2EAB857711598DA1CFBDC2B8848DF5.svg</URL>
+        </control>
+        <control controlID="732C05A5-A6FE-4274-895D-137508640CAD" controlTypeID="Label" x="0" y="5" w="11" h="14" zOrder="2">
+          <canMove>False</canMove>
+          <alias>label</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>0</text>
+          <textColor>4294967295</textColor>
+          <textSize>12</textSize>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>14</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="66345FCB-0A1E-4374-92FB-3CFE4FBD91FA" controlTypeID="Shape" x="26" y="0" w="13" h="12" zOrder="3">
+          <color>4294901760</color>
+          <borderVisible>False</borderVisible>
+          <canMove>False</canMove>
+          <alias>alarm</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>2</text>
+          <textColor>4294967295</textColor>
+          <textSize>7</textSize>
+          <lineSpacing>8</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>100</radius>
+          <radiusIsPercent>True</radiusIsPercent>
+        </control>
+      </groupChildrenDescriptors>
+      <textDirection>MiTextLeft</textDirection>
+    </control>
+    <control controlID="00931216-41DC-45C5-BE29-17CFDEA29CE7" controlTypeID="IconLabel2" x="256" y="31" w="37" h="24" zOrder="3">
+      <isShow>False</isShow>
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{C0CE7C0C-DEA9-4E95-8909-BC2B04F3F9AF}" coords="(0,0,33,24)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="00931216-41DC-45C5-BE29-17CFDEA29CE7" IsNeedReplaceAsSelfID="True" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="1" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+                <target targetID="166AD0B8-E26F-4375-853E-E98041DEE2CD" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="0" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <groupChildrenDescriptors>
+        <control controlID="E29FCB08-6143-4367-B32A-18D5131420F0" controlTypeID="Shape" x="13" y="0" w="24" h="24" zOrder="0">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>shape</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <lineSpacing>16</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="EE2BBB03-57C2-4638-B3DE-D96021145F3D" controlTypeID="Icon" x="13" y="0" w="24" h="24" zOrder="1">
+          <isShow>False</isShow>
+          <color>4294967295</color>
+          <canMove>False</canMove>
+          <alias>icon</alias>
+          <icon>
+            <ID/>
+            <iconFontName>jdFontAwesome</iconFontName>
+            <iconCode>61575</iconCode>
+          </icon>
+          <URL>BA2EAB857711598DA1CFBDC2B8848DF5.svg</URL>
+        </control>
+        <control controlID="8BDA77A2-F646-4F9C-A660-01D7108F19B8" controlTypeID="Label" x="0" y="5" w="9" h="14" zOrder="2">
+          <isShow>False</isShow>
+          <canMove>False</canMove>
+          <alias>label</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>1</text>
+          <textColor>4294967295</textColor>
+          <textSize>12</textSize>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>14</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="054EE384-4FA7-4438-8279-CEB4613EE909" controlTypeID="Shape" x="24" y="0" w="13" h="12" zOrder="3">
+          <isShow>False</isShow>
+          <color>4294901760</color>
+          <borderVisible>False</borderVisible>
+          <canMove>False</canMove>
+          <alias>alarm</alias>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>2</text>
+          <textColor>4294967295</textColor>
+          <textSize>7</textSize>
+          <lineSpacing>8</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <radius>100</radius>
+          <radiusIsPercent>True</radiusIsPercent>
+        </control>
+      </groupChildrenDescriptors>
+      <textDirection>MiTextLeft</textDirection>
+    </control>
+    <control controlID="06F0EA53-3345-448A-BEFF-C6A6D705C0E3" controlTypeID="Icon" x="305" y="31" w="24" h="24" zOrder="4">
+      <color>4294967295</color>
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{82E26245-B8D1-4AE9-812B-667BD6C98AB4}" coords="(0,0,24,24)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="A8C36F01-0EC3-47BE-A7FD-CA316BBEBA46" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="0" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+                <target targetID="06F0EA53-3345-448A-BEFF-C6A6D705C0E3" IsNeedReplaceAsSelfID="True" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="1" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61446</iconCode>
+      </icon>
+      <URL>BEC05033BFE991440DD86CE9E431A6E7.svg</URL>
+    </control>
+    <control controlID="A8C36F01-0EC3-47BE-A7FD-CA316BBEBA46" controlTypeID="Icon" x="305" y="31" w="24" h="24" zOrder="5">
+      <isShow>False</isShow>
+      <color>4294967295</color>
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{82E26245-B8D1-4AE9-812B-667BD6C98AB4}" coords="(0,0,24,24)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="A8C36F01-0EC3-47BE-A7FD-CA316BBEBA46" IsNeedReplaceAsSelfID="True" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="1" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+                <target targetID="06F0EA53-3345-448A-BEFF-C6A6D705C0E3" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="0" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61445</iconCode>
+      </icon>
+      <URL>1DF174D9AE752B1FC4C71308CE69EBA5.svg</URL>
+    </control>
+    <control controlID="56280C95-FADC-46BA-BEEE-BB0DFFCD91CC" controlTypeID="Icon" x="343" y="31" w="24" h="24" zOrder="6">
+      <color>4294967295</color>
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{82E26245-B8D1-4AE9-812B-667BD6C98AB4}" coords="(0,0,24,24)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="F68AFC2A-3873-4DAA-A801-DA68660104FC" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Popup State Change" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="0" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="Value" value="2" varType="3" description=""/>
+                    <param name="AniType" value="0" varType="3" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61984</iconCode>
+      </icon>
+      <URL>9C7ADC66F44EE0B51F76005861E4E569.svg</URL>
+    </control>
+    <control controlID="AC539D6F-986C-46F9-B3D4-81C9E3742DFC" controlTypeID="__group__" x="0" y="228" w="375" h="414" zOrder="7">
+      <links eventType="AtClick" animate="AmPushLeft" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A80813F7-2E09-43F3-8D79-F6AC8E383D77" linkType="ltPageLink" isApplyIncludePage="False" title="Photo-2">
+          <area shape="0" alt="" ID="{B23CF8E7-CFF0-4813-AE55-D2F0F92095B6}" coords="(0,0,375,414)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="EB286F0B-2ADA-4842-93EA-04C172478100" controlTypeID="Image" x="0" y="0" w="375" h="212" zOrder="0">
+          <URL>66553EB9842E28D1BD11AF16861FF676.png</URL>
+          <showText>False</showText>
+        </control>
+        <control controlID="CB8DB586-4AA8-480A-AA3E-E4C5A54AFB5F" controlTypeID="TextArea" x="9" y="234" w="313" h="53" zOrder="1">
+          <borderColor>4282664004</borderColor>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Popular+scenic+spots+of+Gyeonggi-do+in+ROK</text>
+          <textColor>4294967295</textColor>
+          <textSize>20</textSize>
+          <lineSpacing>23</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="5633977C-CDF9-4A6A-BF5B-907D047821D3" controlTypeID="Label" x="343" y="234" w="24" h="17" zOrder="2">
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>1%2F5</text>
+          <textColor>4294967295</textColor>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>16</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="A095EDDA-4755-4002-AADB-1E2F9CB3467A" controlTypeID="TextArea" x="11" y="282" w="355" h="132" zOrder="3">
+          <borderColor>4282664004</borderColor>
+          <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>Hwaseong+Haenggung+is+at+Suwon%2C+Gyeonggi-do%2C+Republic+of+Korea.+Among+numerous+haenggungs+built+in+the+Joseon+era%2C+the+Hwaseong+Haenggung+was+the+best+in+its+scale+and+functions%2C+and%2C+with+the+wall+fortress+surrounding+it%2C+had+political+and+military+significance.+Huang+Shou%2Fchinadaily.com.cn</text>
+          <textColor>4288256409</textColor>
+          <lineSpacingMultiple>1.29999995231628</lineSpacingMultiple>
+          <lineSpacing>21</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="F68AFC2A-3873-4DAA-A801-DA68660104FC" controlTypeID="PopupPanel" x="437" y="65" w="46" h="46" zOrder="8">
+      <caption>Share</caption>
+      <groupChildrenDescriptors>
+        <control controlID="6542FF15-B60F-43B5-B478-1E2038278912" controlTypeID="Panel" x="0" y="0" w="375" h="667" zOrder="0">
+          <locked>True</locked>
+          <color>1879048192</color>
+          <borderVisible>False</borderVisible>
+          <canMove>False</canMove>
+          <alias>background</alias>
+          <groupChildrenDescriptors>
+            <control controlID="5C59DC7C-E1B6-4ACA-8E8D-803B42E6B4F7" controlTypeID="Border" x="0" y="0" w="375" h="667" zOrder="0">
+              <borderVisible>False</borderVisible>
+              <alias>borderLayer</alias>
+            </control>
+          </groupChildrenDescriptors>
+          <thinkness>1</thinkness>
+        </control>
+        <control controlID="ED5B843D-5866-4798-AEF9-A72D3631A039" controlTypeID="PopupPanelContent" x="0" y="399" w="375" h="268" zOrder="1">
+          <color>16777215</color>
+          <alias>content</alias>
+          <groupChildrenDescriptors>
+            <control controlID="C4A6B6FD-0045-47E9-B92C-1A95388BC87B" controlTypeID="Shape" x="0" y="0" w="375" h="268" zOrder="0">
+              <color>3439329279</color>
+              <borderVisible>False</borderVisible>
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <textSize>14</textSize>
+              <lineSpacing>16</lineSpacing>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="57837BF0-09BB-4AD2-8297-2189728A5DE3" controlTypeID="Shape" x="0" y="216" w="375" h="52" zOrder="1">
+              <borderVisible>False</borderVisible>
+              <interactiveData>
+                <entry title="">
+                  <area shape="0" alt="" ID="{FB0E2ED7-F386-4D06-BA74-0CC24FA3D0F4}" coords="(0,0,375,52)"/>
+                  <events title="">
+                    <event eventType="atClick" isChecked="True">
+                      <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                        <target targetID="F68AFC2A-3873-4DAA-A801-DA68660104FC" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                          <command name="Popup State Change" isChecked="True" descrition="">
+                            <param name="AniInterpolation" value="0" varType="3" description=""/>
+                            <param name="AniDuration" value="200" varType="3" description=""/>
+                            <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                            <param name="AniLoop" value="False" varType="11" description=""/>
+                            <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                            <param name="Delay" value="0" varType="3" description=""/>
+                            <param name="Value" value="1" varType="3" description=""/>
+                            <param name="AniType" value="0" varType="3" description=""/>
+                          </command>
+                        </target>
+                      </behaviour>
+                    </event>
+                  </events>
+                </entry>
+              </interactiveData>
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Cancel</text>
+              <textColor>4278471797</textColor>
+              <textSize>20</textSize>
+              <lineSpacing>23</lineSpacing>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+            <control controlID="10245ACA-4763-4DEB-87D9-10E0BD659BC1" controlTypeID="IconButton2" x="29" y="18" w="61" h="75" zOrder="2">
+              <groupChildrenDescriptors>
+                <control controlID="F2249EA1-7628-4771-AABE-BB0447DC46E2" controlTypeID="Shape" x="2" y="0" w="57" h="57" zOrder="0">
+                  <color>4282345408</color>
+                  <borderVisible>False</borderVisible>
+                  <borderColor>4294967295</borderColor>
+                  <canMove>False</canMove>
+                  <alias>shape</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <lineSpacing>16</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <shapeBorderType>SbEllipse</shapeBorderType>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+                <control controlID="4414B0E2-8B74-43C6-BE94-9DC3AF85E138" controlTypeID="Icon" x="12" y="10" w="36" h="36" zOrder="1">
+                  <color>4294967295</color>
+                  <canMove>False</canMove>
+                  <alias>icon</alias>
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdIonicons</iconFontName>
+                    <iconCode>62001</iconCode>
+                  </icon>
+                  <URL>29F37D064345EFF092FDE43A909201C4.svg</URL>
+                </control>
+                <control controlID="E6A4547A-FBE1-44A5-B7C5-131A068A7293" controlTypeID="Label" x="2" y="61" w="57" h="14" zOrder="2">
+                  <canMove>False</canMove>
+                  <alias>label</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Facebook</text>
+                  <textColor>4284900966</textColor>
+                  <textSize>12</textSize>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="10C9B5D6-5326-4A45-92B4-C238C7C7A8B9" controlTypeID="Shape" x="42" y="0" w="19" h="19" zOrder="3">
+                  <color>4294901760</color>
+                  <borderVisible>False</borderVisible>
+                  <canMove>False</canMove>
+                  <alias>alarm</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>2</text>
+                  <textColor>4294967295</textColor>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>100</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+              <iconSize>36</iconSize>
+              <showText>True</showText>
+            </control>
+            <control controlID="3F4D53F9-FEE0-4C0B-9A5E-790CE855FFA7" controlTypeID="IconButton2" x="115" y="18" w="61" h="75" zOrder="3">
+              <groupChildrenDescriptors>
+                <control controlID="DB4FA0A1-DEB8-4A64-9685-EA01E0161A0D" controlTypeID="Shape" x="2" y="0" w="57" h="57" zOrder="0">
+                  <color>4281710059</color>
+                  <borderVisible>False</borderVisible>
+                  <borderColor>4294967295</borderColor>
+                  <canMove>False</canMove>
+                  <alias>shape</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <lineSpacing>16</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <shapeBorderType>SbEllipse</shapeBorderType>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+                <control controlID="5ED1734C-F9DD-4DC0-B122-7D13DCBD12CA" controlTypeID="Icon" x="12" y="10" w="36" h="36" zOrder="1">
+                  <color>4294967295</color>
+                  <canMove>False</canMove>
+                  <alias>icon</alias>
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdIonicons</iconFontName>
+                    <iconCode>62019</iconCode>
+                  </icon>
+                  <URL>6E397F998770B38A343BB5B849DF19E9.svg</URL>
+                </control>
+                <control controlID="B997C8E0-63C3-46B8-9672-68AB472FE368" controlTypeID="Label" x="10" y="61" w="40" h="14" zOrder="2">
+                  <canMove>False</canMove>
+                  <alias>label</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Twitter</text>
+                  <textColor>4284900966</textColor>
+                  <textSize>12</textSize>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="704B3FA4-2E18-46BF-BB54-B5F943CDC354" controlTypeID="Shape" x="42" y="0" w="19" h="19" zOrder="3">
+                  <color>4294901760</color>
+                  <borderVisible>False</borderVisible>
+                  <canMove>False</canMove>
+                  <alias>alarm</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>2</text>
+                  <textColor>4294967295</textColor>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>100</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+              <iconSize>36</iconSize>
+              <showText>True</showText>
+            </control>
+            <control controlID="C5CEEA64-9EDC-462E-B64E-F13B1D115152" controlTypeID="IconButton2" x="201" y="18" w="61" h="75" zOrder="4">
+              <groupChildrenDescriptors>
+                <control controlID="302D608D-9737-49F8-9758-F60F0E9CB815" controlTypeID="Shape" x="2" y="0" w="57" h="57" zOrder="0">
+                  <color>4294956615</color>
+                  <borderVisible>False</borderVisible>
+                  <borderColor>4294967295</borderColor>
+                  <canMove>False</canMove>
+                  <alias>shape</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <lineSpacing>16</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <shapeBorderType>SbEllipse</shapeBorderType>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+                <control controlID="E4603322-AFE9-4949-8F25-FD1AEBE47964" controlTypeID="Icon" x="12" y="10" w="36" h="36" zOrder="1">
+                  <color>4294967295</color>
+                  <canMove>False</canMove>
+                  <alias>icon</alias>
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdFontAwesome</iconFontName>
+                    <iconCode>61834</iconCode>
+                  </icon>
+                  <URL>F7E02778BAF3FF559BFAE415D3E70126.svg</URL>
+                </control>
+                <control controlID="4938AE8E-0538-49B1-8922-2968DECA188C" controlTypeID="Label" x="12" y="61" w="38" h="14" zOrder="2">
+                  <canMove>False</canMove>
+                  <alias>label</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Weibo</text>
+                  <textColor>4284900966</textColor>
+                  <textSize>12</textSize>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="1A79FA3E-9012-44B7-BBD5-0E534284FCA9" controlTypeID="Shape" x="42" y="0" w="19" h="19" zOrder="3">
+                  <color>4294901760</color>
+                  <borderVisible>False</borderVisible>
+                  <canMove>False</canMove>
+                  <alias>alarm</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>2</text>
+                  <textColor>4294967295</textColor>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>100</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+              <iconSize>36</iconSize>
+              <showText>True</showText>
+            </control>
+            <control controlID="5F5CF25E-E0E3-4404-9630-CE473581019C" controlTypeID="IconButton2" x="287" y="18" w="61" h="75" zOrder="5">
+              <groupChildrenDescriptors>
+                <control controlID="7687F779-2C8A-4655-B7B4-1D1AD762367B" controlTypeID="Shape" x="2" y="0" w="57" h="57" zOrder="0">
+                  <color>4284013384</color>
+                  <borderVisible>False</borderVisible>
+                  <borderColor>4294967295</borderColor>
+                  <canMove>False</canMove>
+                  <alias>shape</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <lineSpacing>16</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <shapeBorderType>SbEllipse</shapeBorderType>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+                <control controlID="A2A367C4-04A4-483A-83B8-9E2EBD468A5B" controlTypeID="Icon" x="12" y="10" w="36" h="36" zOrder="1">
+                  <color>4294967295</color>
+                  <canMove>False</canMove>
+                  <alias>icon</alias>
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdFontAwesome</iconFontName>
+                    <iconCode>61911</iconCode>
+                  </icon>
+                  <URL>8FCAE88BF9E7F70E7C2A7CED8744F6DC.svg</URL>
+                </control>
+                <control controlID="52BC3529-25AB-4006-8055-8D9F080088E7" controlTypeID="Label" x="8" y="61" w="45" h="14" zOrder="2">
+                  <canMove>False</canMove>
+                  <alias>label</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Wechat</text>
+                  <textColor>4284900966</textColor>
+                  <textSize>12</textSize>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="FB7D87ED-C634-4EEF-BE23-1F0DA528ECE7" controlTypeID="Shape" x="42" y="0" w="19" h="19" zOrder="3">
+                  <color>4294901760</color>
+                  <borderVisible>False</borderVisible>
+                  <canMove>False</canMove>
+                  <alias>alarm</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>2</text>
+                  <textColor>4294967295</textColor>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>100</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+              <iconSize>36</iconSize>
+              <showText>True</showText>
+            </control>
+            <control controlID="20F319C4-DA16-4955-BF97-3FA4606168CC" controlTypeID="IconButton2" x="30" y="112" w="61" h="75" zOrder="6">
+              <groupChildrenDescriptors>
+                <control controlID="AB9E08CB-43B4-4B98-8446-3B17C0098A83" controlTypeID="Shape" x="2" y="0" w="57" h="57" zOrder="0">
+                  <color>4284013384</color>
+                  <borderVisible>False</borderVisible>
+                  <borderColor>4294967295</borderColor>
+                  <canMove>False</canMove>
+                  <alias>shape</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <lineSpacing>16</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <shapeBorderType>SbEllipse</shapeBorderType>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+                <control controlID="CD47F383-114A-4871-8A66-EE561B7E5050" controlTypeID="Icon" x="12" y="10" w="36" h="36" zOrder="1">
+                  <color>4294967295</color>
+                  <canMove>False</canMove>
+                  <alias>icon</alias>
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdIcoFont</iconFontName>
+                    <iconCode>58933</iconCode>
+                  </icon>
+                  <URL>2C73D3FCA34541450470A8A80B0D356C.svg</URL>
+                </control>
+                <control controlID="876BA897-91CE-459E-B886-79A402927041" controlTypeID="Label" x="8" y="61" w="45" h="14" zOrder="2">
+                  <canMove>False</canMove>
+                  <alias>label</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Wechat</text>
+                  <textColor>4284900966</textColor>
+                  <textSize>12</textSize>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="3B4AB221-5381-4230-8A32-90A8BDD6360E" controlTypeID="Shape" x="42" y="0" w="19" h="19" zOrder="3">
+                  <color>4294901760</color>
+                  <borderVisible>False</borderVisible>
+                  <canMove>False</canMove>
+                  <alias>alarm</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>2</text>
+                  <textColor>4294967295</textColor>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>100</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+              <iconSize>36</iconSize>
+              <showText>True</showText>
+            </control>
+            <control controlID="9891A37B-4B5E-4923-B192-ECCEDD1073AC" controlTypeID="IconButton2" x="116" y="112" w="61" h="75" zOrder="7">
+              <groupChildrenDescriptors>
+                <control controlID="7668EFAD-8580-4509-99C7-505C28262711" controlTypeID="Shape" x="2" y="0" w="57" h="57" zOrder="0">
+                  <color>4284259829</color>
+                  <borderVisible>False</borderVisible>
+                  <borderColor>4294967295</borderColor>
+                  <canMove>False</canMove>
+                  <alias>shape</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <lineSpacing>16</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <shapeBorderType>SbEllipse</shapeBorderType>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+                <control controlID="F5F44258-C897-4E85-B832-A5680C59AC42" controlTypeID="Icon" x="12" y="10" w="36" h="36" zOrder="1">
+                  <color>4294967295</color>
+                  <canMove>False</canMove>
+                  <alias>icon</alias>
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdIonicons</iconFontName>
+                    <iconCode>62499</iconCode>
+                  </icon>
+                  <URL>92F9F955CF788281C0EEF7861CFF0975.svg</URL>
+                </control>
+                <control controlID="C5121656-E6C4-4BF2-8BD9-F292B570605C" controlTypeID="Label" x="18" y="61" w="26" h="14" zOrder="2">
+                  <canMove>False</canMove>
+                  <alias>label</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Mail</text>
+                  <textColor>4284900966</textColor>
+                  <textSize>12</textSize>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="CC38A977-62CF-4CD4-B52F-D69F1B19B915" controlTypeID="Shape" x="42" y="0" w="19" h="19" zOrder="3">
+                  <color>4294901760</color>
+                  <borderVisible>False</borderVisible>
+                  <canMove>False</canMove>
+                  <alias>alarm</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>2</text>
+                  <textColor>4294967295</textColor>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>100</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+              <iconSize>36</iconSize>
+              <showText>True</showText>
+            </control>
+            <control controlID="EF84EC32-9B16-4A59-AD0D-DC2BFB6D5D84" controlTypeID="IconButton2" x="201" y="112" w="61" h="75" zOrder="8">
+              <groupChildrenDescriptors>
+                <control controlID="D741CFA9-DB4C-4FFD-8A49-C5C345E1D552" controlTypeID="Shape" x="2" y="0" w="57" h="57" zOrder="0">
+                  <color>4284259829</color>
+                  <borderVisible>False</borderVisible>
+                  <borderColor>4294967295</borderColor>
+                  <canMove>False</canMove>
+                  <alias>shape</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <lineSpacing>16</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <shapeBorderType>SbEllipse</shapeBorderType>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+                <control controlID="E282513F-F672-47CB-984D-451C8BA93813" controlTypeID="Icon" x="12" y="10" w="36" h="36" zOrder="1">
+                  <color>4294967295</color>
+                  <canMove>False</canMove>
+                  <alias>icon</alias>
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdIcoMoonFree</iconFontName>
+                    <iconCode>59755</iconCode>
+                  </icon>
+                  <URL>878770FF750CFE0FDFC983B78E4DABF1.svg</URL>
+                </control>
+                <control controlID="E676016D-924E-44C5-9E7A-2A0EFDCBD7B9" controlTypeID="Label" x="4" y="61" w="53" h="14" zOrder="2">
+                  <canMove>False</canMove>
+                  <alias>label</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Message</text>
+                  <textColor>4284900966</textColor>
+                  <textSize>12</textSize>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="619674CB-35D2-4459-A38E-6D1DC9FEA1EE" controlTypeID="Shape" x="42" y="0" w="19" h="19" zOrder="3">
+                  <color>4294901760</color>
+                  <borderVisible>False</borderVisible>
+                  <canMove>False</canMove>
+                  <alias>alarm</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>2</text>
+                  <textColor>4294967295</textColor>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>100</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+              <iconSize>36</iconSize>
+              <showText>True</showText>
+            </control>
+            <control controlID="71DD4266-5975-47A1-9200-4F5682FFDBCB" controlTypeID="IconButton2" x="287" y="112" w="61" h="75" zOrder="9">
+              <groupChildrenDescriptors>
+                <control controlID="0F7BCA3F-4713-4239-AFBF-10606DBD3B95" controlTypeID="Shape" x="2" y="0" w="57" h="57" zOrder="0">
+                  <color>4284259829</color>
+                  <borderVisible>False</borderVisible>
+                  <borderColor>4294967295</borderColor>
+                  <canMove>False</canMove>
+                  <alias>shape</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <textSize>14</textSize>
+                  <lineSpacing>16</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <shapeBorderType>SbEllipse</shapeBorderType>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+                <control controlID="45ADB09A-1AD1-437D-A577-90A8A2FB677A" controlTypeID="Icon" x="12" y="10" w="36" h="36" zOrder="1">
+                  <color>4294967295</color>
+                  <canMove>False</canMove>
+                  <alias>icon</alias>
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdFontAwesome</iconFontName>
+                    <iconCode>62055</iconCode>
+                  </icon>
+                  <URL>889E208791BEEA5925F0E9D3A28E4DF6.svg</URL>
+                </control>
+                <control controlID="86D364F7-1D5F-441F-BB8F-EFA5359F6B3F" controlTypeID="Label" x="6" y="61" w="49" h="14" zOrder="2">
+                  <canMove>False</canMove>
+                  <alias>label</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>Browser</text>
+                  <textColor>4284900966</textColor>
+                  <textSize>12</textSize>
+                  <textVAlign>VaTop</textVAlign>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                </control>
+                <control controlID="BA353FFC-9BD2-4729-B8A5-0B4A9BFAE5F0" controlTypeID="Shape" x="42" y="0" w="19" h="19" zOrder="3">
+                  <color>4294901760</color>
+                  <borderVisible>False</borderVisible>
+                  <canMove>False</canMove>
+                  <alias>alarm</alias>
+                  <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+                  <text>2</text>
+                  <textColor>4294967295</textColor>
+                  <lineSpacing>14</lineSpacing>
+                  <selectedIndex>-1</selectedIndex>
+                  <radius>100</radius>
+                  <radiusIsPercent>True</radiusIsPercent>
+                </control>
+              </groupChildrenDescriptors>
+              <iconSize>36</iconSize>
+              <showText>True</showText>
+            </control>
+            <control controlID="438E992E-10E2-462D-856C-29FC979779F1" controlTypeID="Label" x="36" y="187" w="53" h="14" zOrder="10">
+              <font family="Arial" displayName="Arial" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Moments</text>
+              <textColor>4284900966</textColor>
+              <textSize>12</textSize>
+              <textVAlign>VaTop</textVAlign>
+              <lineSpacing>14</lineSpacing>
+              <useDefaultTextSize>False</useDefaultTextSize>
+              <selectedIndex>-1</selectedIndex>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+      <aniType_Mobile>aniMoveUp</aniType_Mobile>
+      <isShowBackground>True</isShowBackground>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4278190080</backgroundColor>
+    <fontFamily>Arial</fontFamily>
+    <guideLines/>
+    <fontSize>14</fontSize>
+  </param>
+</mockup>
